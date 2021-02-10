@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 500px;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  padding: 30px 87px;
+  z-index: 3;
+}
+
+.topbar nav {
+  float: left;
+}
+
+.topbar nav a {
+  color: #9f9f9f;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0 53px;
+}
+
+.topbar nav a:hover,.topbar nav a.active {
+  color: black;
+}
+
+.social {
+  float: right;
+}
+
+.banniere {
+  height: 475px;
+  background: no-repeat center center / cover url(images/project.jpg);
+}
+ .body {
+   display: flex;
+ }
+
+.main {
+  background:white;
+  width: calc(100% - 375px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5) ;
+  position: relative;
+  z-index: 2;
+}
+
+.sidebar{
+  background:  rgb(235, 234, 234);
+  width: 375px;
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  background:  rgb(235, 234, 234);
+}
+
+.sidebar-title  {
+  font-size: 30px;
+  color: #000;
+  margin: 15px 0;
+}
+
+.sidebar-title:first-child {
+  margin-top:0;
+}
+
+.sidebar a {
+  color: #9f9f9f;
+  text-decoration: none;  
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2.3;
+}
+
+.sidebar li {
+  padding: 6px 0;
+}
+
+.sidebar li:first-child {
+  padding-top: 0;
+}
+
+.sidebar li:last-child{
+  padding-bottom: 0;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.article {
+  position: relative;
+  margin: 50px 0;
+  padding-left: 333px;
+  min-height: 203px;
+}
+
+.article a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+.article-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 308px;
+  margin-right: 25px;
+}
+
+.article-date {
+  font-weight: 300px;
+  color: rgba(0, 0, 0, 0.6);
+  /*margin-bottom: 2px;*/
+}
+
+.article-title {
+font-size: 2.25rem;
+line-height: 1.1;
+font-family: "cardo", serif;
+margin-top: auto;
+margin-bottom: 0;
+}
+
+.article-img img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  clear: both;
+  min-height: 50px;
+}
